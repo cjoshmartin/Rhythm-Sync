@@ -1,0 +1,22 @@
+{
+  "name": "RhythmSync",
+  "version": "0.0.1",
+  "author": "Yee Jie, Juan Miguel Jimeno, Qing Hui",
+  "description": "Sample project to sync data from wearables",
+  "main": "./server.js",
+  "dependencies": {
+    "jade": "*",
+    "express": "~3.1.0",
+    "moment": "~2.7.0",
+    "mongoose": "~3.8.12",
+    "oauth": "~0.9.12",
+    "passport": "~0.2.0",
+    "passport-fitbit": "~0.1.2",
+    "request": "~2.36.0"
+  },
+  "noAnalyze": true,
+  "license": "Apache",
+  "engines": {
+    "node": ">=0.6.14"
+  }
+}
